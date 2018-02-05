@@ -7,4 +7,9 @@ La idea es crear un portafolio sencillo, que el usuario pueda ver toda la inform
 Me gustaría explotar la idea de las brujas y gatos.
 Agregaré la librería Jquery canvas sparkles para darle animación a las estrellas.
 
-![](https://i.imgur.com/ewr5Cbt.png)
+## Paleta de colores
+
+![paleta](https://i.imgur.com/Okeer4C.png)
+
+## Maqueta
+![maqueta](https://i.imgur.com/ewr5Cbt.png)
