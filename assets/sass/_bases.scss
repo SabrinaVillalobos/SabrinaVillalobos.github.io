@@ -1,0 +1,98 @@
+body{
+background: $gradient;
+  height: 100%;
+  color:#fff;
+}
+
+.cont1{
+  p{
+    font-family:Consolas,Monaco;
+    display:inline-block;
+    font-size: 2em;
+  }
+  h6{
+    font-family:endora;
+    display: inline-block;
+  }
+  h1{
+    font-family:bickley;
+    font-size:19vh;
+  }
+  .cat1{
+    font-family:cat;
+    display:inline-block;
+    font-size:5em;
+  }
+  .name{
+    display:inline-block;
+  }
+}
+
+nav ul{
+  transform: translateX(32%);
+  webkit-transform: translateX(-32%);
+}
+
+.cont2{
+  h1{
+    font-family:witches;
+    font-size:3em;
+  }
+  img{
+    width:15em;
+    heigth:auto;
+  }
+  p{
+    font-size:20px;
+  }
+  .cat2{
+    font-family:cat;
+    font-size:5em;
+    text-align:left;
+  }
+}
+
+.cont3{
+  h1{
+    font-family:witches;
+    font-size:3em;
+  }
+  img{
+    width:15em;
+    heigth:auto;
+  }
+  .horizontal{
+    background: transparent!important;
+    max-width: 80%;
+  }
+  p{
+    color:#000;
+  }
+}
+
+.bar{
+  .html{
+    width: 90%;
+    background-color: rgba(54,39,94,1);
+    }
+    .css{
+      width: 80%;
+      background-color:#DB078C;
+      }
+      .js{
+        width: 65%;
+        background-color: #fedbed;
+        }
+        .php{
+          width: 60%;
+          background-color: #fff;}
+}
+
+.icons{
+  font-size:5em;
+}
+
+.cat3{
+  font-family:cat;
+  font-size:5em!important;
+}
