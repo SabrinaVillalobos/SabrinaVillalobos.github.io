@@ -1,9 +1,15 @@
 body{
-background: $gradient;
+  background: $gradient;
   height: 100%;
   color:#fff;
 }
 
+#nav_f{
+  background: rgba(54,39,94,1);
+}
+#nav-mobile{
+  width: 100%;
+}
 .cont1{
   p{
     font-family:Consolas,Monaco;
@@ -95,4 +101,39 @@ nav ul{
 .cat3{
   font-family:cat;
   font-size:5em!important;
+}
+.side-nav-menu {
+  background: $gradient;
+ }
+
+.side-nav li > a{
+  color:#fff;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+nav .button-collapse{
+  margin-top: -15px;
+}
+.right {
+  background: transparent;
+  border:none;
+  font-size:1.5em;
+}
+button:focus{
+  background:rgba(255,114,104,1);
+}
+
+.spark{
+  background:url("../img/forest1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.forest2{
+  height:600px;
+  background:url("../img/forestd.png");
+  background-position: 50% 50%;
+  padding-top:10%;
+  color:#fff ;
 }

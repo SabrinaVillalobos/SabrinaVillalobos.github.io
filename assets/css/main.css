@@ -6789,6 +6789,12 @@ body {
   height: 100%;
   color: #fff; }
 
+#nav_f {
+  background: #36275e; }
+
+#nav-mobile {
+  width: 100%; }
+
 .cont1 p {
   font-family: Consolas,Monaco;
   display: inline-block;
@@ -6854,5 +6860,36 @@ nav ul {
 .cat3 {
   font-family: cat;
   font-size: 5em !important; }
+
+.side-nav-menu {
+  background: linear-gradient(to bottom, #36275e 0%, #36275e 10%, #ff7268 91%, #ff7268 100%); }
+
+.side-nav li > a {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 90px; }
+
+nav .button-collapse {
+  margin-top: -15px; }
+
+.right {
+  background: transparent;
+  border: none;
+  font-size: 1.5em; }
+
+button:focus {
+  background: #ff7268; }
+
+.spark {
+  background: url("../img/forest1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.forest2 {
+  height: 600px;
+  background: url("../img/forestd.png");
+  background-position: 50% 50%;
+  padding-top: 10%;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
