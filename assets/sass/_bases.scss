@@ -4,6 +4,12 @@ body{
   color:#fff;
 }
 
+#about,#skills,#works{
+  padding-top:8%;
+}
+.navb{
+  margin-left: 2rem;
+}
 #nav_f{
   background: rgba(54,39,94,1);
 }
@@ -33,7 +39,10 @@ body{
     display:inline-block;
   }
 }
-
+.coder{
+  color:lime;
+  font-size:1em;
+}
 nav ul{
   transform: translateX(32%);
   webkit-transform: translateX(-32%);
@@ -108,12 +117,12 @@ nav ul{
 
 .side-nav li > a{
   color:#fff;
-  padding-top: 50px;
-  padding-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 nav .button-collapse{
-  margin-top: -15px;
+  margin-top: -20px;
 }
 .right {
   background: transparent;
@@ -128,12 +137,18 @@ button:focus{
   background:url("../img/forest1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-top:4%;
+  padding-bottom:8vh;
 }
 
 .forest2{
   height:600px;
-  background:url("../img/forestd.png");
+  background:url("../img/forestt.png");
+  background-color:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: 50% 50%;
   padding-top:10%;
   color:#fff ;
 }
+
+
+

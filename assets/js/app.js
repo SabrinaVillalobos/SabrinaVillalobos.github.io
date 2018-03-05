@@ -18,6 +18,23 @@ $(document).ready(function() {
     overlap: 20
 });
 
-  jakealbaughSignature("light");
-  
+//typing
+$('.type').t('The<p class="coder">&lt;coder&gt;</p>Witch');
+
+//glow
+$('.forest2').addGlow({
+  radius: 100,
+  textColor: 'rgba(54,39,94,1)',
+  haloColor: '#fff',
+  duration: 200
+});
+
+$('.forest2').addGlow({
+  radius: 100,
+  textColor: 'rgba(54,39,94,1)',
+  haloColor: '#fff',
+  duration: 200
+});
+
+
 });
