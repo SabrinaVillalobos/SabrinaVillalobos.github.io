@@ -5,7 +5,7 @@ $(document).ready(function() {
     draggable: true
   });
 
-  $(".spark").sparkle({
+  $(".spark,footer").sparkle({
     "color": "rainbow",
     count: 150,
     speed: 0
@@ -23,14 +23,14 @@ $('.type').t('The<p class="coder">&lt;coder&gt;</p>Witch');
 
 //glow
 $('.forest2').addGlow({
-  radius: 100,
+  radius: 20,
   textColor: 'rgba(54,39,94,1)',
   haloColor: '#fff',
   duration: 200
 });
 
-$('.forest2').addGlow({
-  radius: 100,
+$('.cod,.cat1,.sobre,.trab,.con').addGlow({
+  radius: 20,
   textColor: 'rgba(54,39,94,1)',
   haloColor: '#fff',
   duration: 200

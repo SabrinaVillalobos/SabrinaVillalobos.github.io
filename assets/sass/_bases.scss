@@ -103,14 +103,10 @@ nav ul{
           background-color: #fff;}
 }
 
-.icons{
+.iconns{
   font-size:5em;
 }
 
-.cat3{
-  font-family:cat;
-  font-size:5em!important;
-}
 .side-nav-menu {
   background: $gradient;
  }
@@ -143,12 +139,27 @@ button:focus{
 
 .forest2{
   height:600px;
-  background:url("../img/forestt.png");
-  background-color:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background:url("../img/forestf.png");
+  background-repeat: no-repeat;
   background-position: 50% 50%;
   padding-top:10%;
   color:#fff ;
+  .cat3{
+    padding: 0;
+    margin: 0;
+    font-family:cat;
+    font-size:5em!important
+  }
 }
 
+.icons{
+  padding-top:5%;
+  padding-bottom:10%;
+  font-size:5em;
+}
 
+#skills{
+  padding-top:15%;
+  padding-bottom:20%;
+}
 
