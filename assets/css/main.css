@@ -6789,8 +6789,11 @@ body {
   height: 100%;
   color: #fff; }
 
-#about, #skills, #works {
-  padding-top: 8%; }
+#works {
+  padding-top: 11vh; }
+
+#about, #skills {
+  padding-top: 14vh; }
 
 .navb {
   margin-left: 2rem; }
@@ -6837,7 +6840,8 @@ nav ul {
 .cont2 .cat2 {
   font-family: cat;
   font-size: 5em;
-  text-align: left; }
+  text-align: left;
+  margin-top: 0; }
 
 .cont3 h1 {
   font-family: witches;
@@ -6865,7 +6869,8 @@ nav ul {
   background-color: #fff; }
 
 .iconns {
-  font-size: 5em; }
+  font-size: 5em;
+  padding-top: 10vh; }
 
 .side-nav-menu {
   background: linear-gradient(to bottom, #36275e 0%, #36275e 10%, #ff7268 91%, #ff7268 100%); }
@@ -6912,7 +6917,10 @@ button:focus {
   font-size: 5em; }
 
 #skills {
-  padding-top: 15%;
+  padding-top: 11vh;
   padding-bottom: 20%; }
+
+.bar {
+  padding-top: 2vh; }
 
 /*# sourceMappingURL=main.css.map */

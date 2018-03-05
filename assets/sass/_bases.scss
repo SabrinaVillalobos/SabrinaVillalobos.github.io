@@ -4,8 +4,12 @@ body{
   color:#fff;
 }
 
-#about,#skills,#works{
-  padding-top:8%;
+#works{
+  padding-top:11vh;
+}
+
+#about,#skills{
+  padding-top:14vh
 }
 .navb{
   margin-left: 2rem;
@@ -64,6 +68,7 @@ nav ul{
     font-family:cat;
     font-size:5em;
     text-align:left;
+    margin-top:0;
   }
 }
 
@@ -105,6 +110,7 @@ nav ul{
 
 .iconns{
   font-size:5em;
+  padding-top: 10vh;
 }
 
 .side-nav-menu {
@@ -159,7 +165,10 @@ button:focus{
 }
 
 #skills{
-  padding-top:15%;
+  padding-top:11vh;
   padding-bottom:20%;
 }
 
+.bar{
+  padding-top:2vh;
+}
