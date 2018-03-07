@@ -9,7 +9,7 @@ body{
 }
 
 #about,#skills{
-  padding-top:14vh
+  padding-top:14vh;
 }
 .navb{
   margin-left: 2rem;
@@ -62,7 +62,8 @@ nav ul{
     heigth:auto;
   }
   p{
-    font-size:20px;
+    font-size:2.6vh;
+    font-family: 'Roboto', sans-serif;
   }
   .cat2{
     font-family:cat;
@@ -145,7 +146,7 @@ button:focus{
 
 .forest2{
   height:600px;
-  background:url("../img/forestf.png");
+  background:url("../img/forestff.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   padding-top:10%;
