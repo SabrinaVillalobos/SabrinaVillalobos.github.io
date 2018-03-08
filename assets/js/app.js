@@ -36,5 +36,16 @@ $('.cod,.cat1,.sobre,.trab,.con').addGlow({
   duration: 200
 });
 
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('#about', {
+  origin: 'top',
+  distance: '20px',
+  duration: 900,
+delay: 0,
+});
+
+sr.reveal('#works');
+sr.reveal('.valign-wrapper');
 
 });
