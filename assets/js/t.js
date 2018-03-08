@@ -31,7 +31,7 @@ $.fn.t=function($c,$o){return this.each(function(){
   if(_c=='add'){_c=_o;_o={};}
 
 
-  var _o=$.extend({t:!!1,delay:!1,speed:50,speed_vary:!1,caret:'\u258e',tag:'span',blink:!!1,beep:!1,blink_perm:!1,repeat:-3,pause_on_click:!1,
+  var _o=$.extend({t:!!1,delay:!1,speed:100,speed_vary:!1,caret:'\u258e',tag:'span',blink:!!1,beep:!1,blink_perm:!1,repeat:-3,pause_on_click:!1,
   wrap:!1,mistype:!1,locale:'en',init:!1,typing:!1,fin:!1},((_o)?_o:c.data())),
   oo=!1,a=!1,k,d,dl,$$,$$$,T;
 

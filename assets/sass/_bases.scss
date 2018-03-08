@@ -20,6 +20,9 @@ body{
 #nav-mobile{
   width: 100%;
 }
+.works{
+  padding-top:5%;
+}
 .cont1{
   p{
     font-family:Consolas,Monaco;
@@ -108,16 +111,37 @@ nav ul{
           width: 60%;
           background-color: #fff;}
 }
-
+.workTitle{
+  font-size:3vh;
+}
+.wimg{
+    align:center;
+  }
+img.responsive-img{
+  max-width: 80%;
+}
+.description{
+  font-size:2.5vh;
+  margin-top: 5%;
+}
 .iconns{
   font-size:5em;
-  padding-top: 10vh;
 }
-
+.demo{
+  margin-right:3%;
+}
+.sp{
+  margin-top:5%;
+}
+.down{
+  margin-top:10%;
+}
 .side-nav-menu {
   background: $gradient;
  }
-
+ .contW{
+  padding-top:5%;
+ }
 .side-nav li > a{
   color:#fff;
   padding-top: 40px;
@@ -140,23 +164,26 @@ button:focus{
   background:url("../img/forest1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size:cover;
   padding-top:4%;
   padding-bottom:8vh;
 }
 
 .forest2{
-  height:600px;
+  height:100%;
   background:url("../img/forestff.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-attachment: fixed;
-  padding-top:10%;
+  background-size:cover;
+  padding-top:15vh;
+  padding-bottom: 18vh;
   color:#fff ;
   .cat3{
     padding: 0;
     margin: 0;
     font-family:cat;
-    font-size:5em!important
+    font-size:1em!important
   }
 }
 
@@ -173,4 +200,8 @@ button:focus{
 
 .bar{
   padding-top:2vh;
+}
+
+.btn{
+  background-color:rgba(54,39,94,1);
 }

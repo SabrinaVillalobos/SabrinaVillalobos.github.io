@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.button-collapse').sideNav({
-    edge: 'left', 
+    edge: 'left',
     closeOnClick: true,
     draggable: true
   });
