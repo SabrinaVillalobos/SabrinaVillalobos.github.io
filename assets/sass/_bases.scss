@@ -10,6 +10,7 @@ body{
 
 #about,#skills{
   padding-top:14vh;
+  height:100vh;
 }
 .navb{
   margin-left: 2rem;
@@ -22,6 +23,7 @@ body{
 }
 .works{
   padding-top:5%;
+  heigth:100vh;
 }
 .cont1{
   p{
@@ -167,6 +169,7 @@ button:focus{
   background-size:cover;
   padding-top:4%;
   padding-bottom:8vh;
+  height:100vh;
 }
 
 .forest2{
@@ -200,10 +203,6 @@ button:focus{
 
 .bar{
   padding-top:2vh;
-}
-
-.btn{
-  background-color:rgba(54,39,94,1);
 }
 
 .cd-section {
