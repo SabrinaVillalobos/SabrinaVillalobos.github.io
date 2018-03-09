@@ -32,15 +32,15 @@ body{
     font-size: 2em;
   }
   h6{
-    font-family:endora;
+    font-family:'Endora';
     display: inline-block;
   }
   h1{
-    font-family:bickley;
+    font-family:'Bickley';
     font-size:19vh;
   }
   .cat1{
-    font-family:cat;
+    font-family:"Cat";
     display:inline-block;
     font-size:5em;
   }
@@ -59,8 +59,8 @@ nav ul{
 
 .cont2{
   h1{
-    font-family:witches;
-    font-size:3em;
+    font-family:'Magic';
+    font-size:5vh;
   }
   img{
     width:15em;
@@ -71,7 +71,7 @@ nav ul{
     font-family: 'Roboto', sans-serif;
   }
   .cat2{
-    font-family:cat;
+    font-family:"Cat";
     font-size:5em;
     text-align:left;
     margin-top:0;
@@ -80,8 +80,8 @@ nav ul{
 
 .cont3{
   h1{
-    font-family:witches;
-    font-size:3em;
+    font-family:'Magic';
+    font-size:5vh;
   }
   img{
     width:15em;
@@ -128,6 +128,7 @@ img.responsive-img{
 }
 .iconns{
   font-size:5em;
+  padding-top: 9vh;
 }
 .demo{
   margin-right:3%;
@@ -183,13 +184,15 @@ button:focus{
   padding-bottom: 18vh;
   color:#fff ;
   .cat3{
-    padding: 0;
+    padding:0;
     margin: 0;
-    font-family:cat;
+    font-family:"Cat";
     font-size:1em!important
   }
 }
-
+footer{
+  height:100vh;
+}
 .icons{
   padding-top:5%;
   padding-bottom:10%;

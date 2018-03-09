@@ -6773,10 +6773,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 @font-face {
-  font-family: 'cat';
-  src: url("../css/fonts/aj-cat-webfont.ttf") format("truetype"); }
-@font-face {
-  font-family: 'bickley';
+  font-family: 'Bickley';
   src: url("../css/fonts/BickleyScript.ttf") format("truetype"); }
 @font-face {
   font-family: 'endora';
@@ -6787,6 +6784,38 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media only screen and (max-width: 600px) {
   .valign-wrapper {
     display: inherit; } }
+@font-face {
+  font-family: 'Cat';
+  src: url("../css/fonts/aj-cat-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../css/fonts/aj-cat-webfont.eot?#iefix") format("embedded-opentype"), url("../css/fonts/aj-cat-webfont.woff2") format("woff2"), url("../css/fonts/aj-cat-webfont.woff") format("woff"), url("../css/fonts/aj-cat-webfont.ttf") format("truetype"), url("../css/fonts/aj-cat-webfont.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Bickley';
+  src: url("../css/fonts/BickleyScript.eot");
+  /* IE9 Compat Modes */
+  src: url("../css/fonts/BickleyScript.eot?#iefix") format("embedded-opentype"), url("../css/fonts/BickleyScript.woff2") format("woff2"), url("../css/fonts/BickleyScript.woff") format("woff"), url("../css/fonts/BickleyScript.ttf") format("truetype"), url("../css/fonts/BickleyScript.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Endora';
+  src: url("../css/fonts/endora-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../css/fonts/endora-webfont.eot?#iefix") format("embedded-opentype"), url("../css/fonts/endora-webfont.woff2") format("woff2"), url("../css/fonts/endora-webfont.woff") format("woff"), url("../css/fonts/endora-webfont.ttf") format("truetype"), url("../css/fonts/endora-webfont.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Magic';
+  src: url("../css/fonts/witches_magic-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../css/fonts/witches_magic-webfont.eot?#iefix") format("embedded-opentype"), url("../css/fonts/witches_magic-webfont.woff2") format("woff2"), url("../css/fonts/witches_magic-webfont.woff") format("woff"), url("../css/fonts/witches_magic-webfont.ttf") format("truetype"), url("../css/fonts/witches_magic-webfont.svg") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
 body {
   background: linear-gradient(to bottom, #36275e 0%, #36275e 10%, #ff7268 91%, #ff7268 100%);
   height: 100%;
@@ -6817,13 +6846,13 @@ body {
   display: inline-block;
   font-size: 2em; }
 .cont1 h6 {
-  font-family: endora;
+  font-family: 'Endora';
   display: inline-block; }
 .cont1 h1 {
-  font-family: bickley;
+  font-family: 'Bickley';
   font-size: 19vh; }
 .cont1 .cat1 {
-  font-family: cat;
+  font-family: "Cat";
   display: inline-block;
   font-size: 5em; }
 .cont1 .name {
@@ -6838,8 +6867,8 @@ nav ul {
   webkit-transform: translateX(-32%); }
 
 .cont2 h1 {
-  font-family: witches;
-  font-size: 3em; }
+  font-family: 'Magic';
+  font-size: 5vh; }
 .cont2 img {
   width: 15em;
   heigth: auto; }
@@ -6847,14 +6876,14 @@ nav ul {
   font-size: 2.6vh;
   font-family: 'Roboto', sans-serif; }
 .cont2 .cat2 {
-  font-family: cat;
+  font-family: "Cat";
   font-size: 5em;
   text-align: left;
   margin-top: 0; }
 
 .cont3 h1 {
-  font-family: witches;
-  font-size: 3em; }
+  font-family: 'Magic';
+  font-size: 5vh; }
 .cont3 img {
   width: 15em;
   heigth: auto; }
@@ -6891,7 +6920,8 @@ img.responsive-img {
   margin-top: 5%; }
 
 .iconns {
-  font-size: 5em; }
+  font-size: 5em;
+  padding-top: 9vh; }
 
 .demo {
   margin-right: 3%; }
@@ -6946,8 +6976,11 @@ button:focus {
   .forest2 .cat3 {
     padding: 0;
     margin: 0;
-    font-family: cat;
+    font-family: "Cat";
     font-size: 1em !important; }
+
+footer {
+  height: 100vh; }
 
 .icons {
   padding-top: 5%;
