@@ -22,7 +22,7 @@ $(document).ready(function() {
 $('.type').t('The<p class="coder">&lt;coder&gt;</p>Witch');
 
 //glow
-$('.forest2').addGlow({
+$('h1').addGlow({
   radius: 20,
   textColor: 'rgba(54,39,94,1)',
   haloColor: '#fff',
