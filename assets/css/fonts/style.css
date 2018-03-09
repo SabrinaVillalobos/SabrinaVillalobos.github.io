@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Endora";
+  src: url("./fonts/endora-webfont.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/endora-webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/endora-webfont.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/endora-webfont.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/endora-webfont.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/endora-webfont.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/endora-webfont.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
