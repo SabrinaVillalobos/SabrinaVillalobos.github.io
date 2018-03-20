@@ -8,9 +8,12 @@ body{
   padding-top:11vh;
 }
 
-#about,#skills{
+#about{
   padding-top:14vh;
   height:100vh;
+}
+#skills{
+  padding-top:14vh;
 }
 .navb{
   margin-left: 2rem;
@@ -201,7 +204,6 @@ footer{
 
 #skills{
   padding-top:11vh;
-  padding-bottom:20%;
 }
 
 .bar{
@@ -210,4 +212,7 @@ footer{
 
 .cd-section {
   height: 100vh;
+}
+.btm{
+  padding-bottom:105%;
 }

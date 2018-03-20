@@ -47,5 +47,6 @@ delay: 0,
 
 sr.reveal('#works');
 sr.reveal('.valign-wrapper');
+sr.reveal('#skills');
 
 });

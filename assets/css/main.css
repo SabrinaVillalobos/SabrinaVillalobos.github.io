@@ -6824,9 +6824,12 @@ body {
 #works {
   padding-top: 11vh; }
 
-#about, #skills {
+#about {
   padding-top: 14vh;
   height: 100vh; }
+
+#skills {
+  padding-top: 14vh; }
 
 .navb {
   margin-left: 2rem; }
@@ -6988,13 +6991,15 @@ footer {
   font-size: 11vh; }
 
 #skills {
-  padding-top: 11vh;
-  padding-bottom: 20%; }
+  padding-top: 11vh; }
 
 .bar {
   padding-top: 2vh; }
 
 .cd-section {
   height: 100vh; }
+
+.btm {
+  padding-bottom: 105%; }
 
 /*# sourceMappingURL=main.css.map */
