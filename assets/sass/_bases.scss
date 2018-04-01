@@ -62,7 +62,7 @@ body{
   padding:0;
   margin:0;
   font-family:'Magic'!important;
-  font-size:0.25em!important;
+  font-size:3vh!important;
 }
 nav ul{
   transform: translateX(32%);
@@ -94,7 +94,9 @@ nav ul{
     margin-top:0;
   }
 }
-
+#contact{
+  padding-top: 12vh;
+}
 .cont3{
   h1{
     font-family:'Magic';
@@ -144,7 +146,7 @@ img.responsive-img{
   margin-top: 5%;
 }
 .iconns{
-  font-size:5em;
+  font-size:13vh;
   padding-top: 9vh;
 }
 .demo{
@@ -193,7 +195,6 @@ button:focus{
   font-size:10rem;
 }
 .forest2{
-  height:100%;
   background:url("../img/forestff.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -206,7 +207,7 @@ button:focus{
     padding-top:10vh;
     margin: 0;
     font-family:"Cat";
-    font-size:1em!important
+    font-size:13vh!important
   }
 }
 footer{
