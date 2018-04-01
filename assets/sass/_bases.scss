@@ -3,30 +3,33 @@ body{
   height: 100%;
   color:#fff;
 }
-
 #works{
+  padding-top:15vh;
+  heigth:100vh;
+}
+.works{
   padding-top:11vh;
 }
-
 #about{
   padding-top:14vh;
   height:100vh;
 }
 #skills{
-  padding-top:14vh;
+  padding-top:19vh;
+  height: 115vh;
 }
 .navb{
   margin-left: 2rem;
+}
+.cvicon{
+  height:100px;
+  width:50px;
 }
 #nav_f{
   background: rgba(54,39,94,1);
 }
 #nav-mobile{
   width: 100%;
-}
-.works{
-  padding-top:5%;
-  heigth:100vh;
 }
 .cont1{
   p{
@@ -55,11 +58,22 @@ body{
   color:lime;
   font-size:1em;
 }
+.dwcv{
+  padding:0;
+  margin:0;
+  font-family:'Magic'!important;
+  font-size:0.25em!important;
+}
 nav ul{
   transform: translateX(32%);
   webkit-transform: translateX(-32%);
 }
-
+.catcv{
+  padding-top:10vh;
+  margin: 0;
+  font-family:"Magic";
+  font-size:1em!important
+}
 .cont2{
   h1{
     font-family:'Magic';
@@ -175,7 +189,9 @@ button:focus{
   padding-bottom:8vh;
   height:100vh;
 }
-
+.cvtext{
+  font-size:10rem;
+}
 .forest2{
   height:100%;
   background:url("../img/forestff.png");
@@ -187,7 +203,7 @@ button:focus{
   padding-bottom: 18vh;
   color:#fff ;
   .cat3{
-    padding:0;
+    padding-top:10vh;
     margin: 0;
     font-family:"Cat";
     font-size:1em!important
@@ -200,10 +216,6 @@ footer{
   padding-top:5%;
   padding-bottom:10%;
   font-size:11vh;
-}
-
-#skills{
-  padding-top:11vh;
 }
 
 .bar{
